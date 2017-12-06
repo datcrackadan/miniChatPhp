@@ -28,7 +28,7 @@
 
 
         while ($data = $response->fetch()) {
-            echo "<p><strong>" . htmlspecialchars($data["pseuso"]) . "</strong> : " . htmlspecialchars($data["message"]) . "</p>";
+            echo "<p><strong>" . htmlspecialchars($data["pseudo"]) . "</strong> : " . htmlspecialchars($data["message"]) . "</p>";
         }
         $response->closeCursor();
     ?>
